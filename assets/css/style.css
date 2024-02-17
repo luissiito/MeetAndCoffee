@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav ul{
+    background-color: black;
+    display: flex;
+    gap: 2em;
+    padding-left: 4em;
+}
+nav ul li{
+    list-style: none;
+    padding-bottom: .8em;
+    padding-top: 1em;
+}
+nav ul li a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+nav ul li img{
+    filter: invert(100%);
+    width: 1.4em;
+}
+main#principal section{
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
+}
+
+main#principal section:nth-child(1) img{
+    height: 17em;
+    width: 100%;
+}
+main#principal section:nth-child(1) :is(h1,h3){    
+    color: white;
+    letter-spacing: .03m;
+    position: absolute;
+    text-align: right;
+    width: 60%;
+}
+main#principal section:nth-child(1) h1{
+    font-size: 2.8em;
+    font-weight: bolder;
+    right: 5em;
+    top: 2.5em;
+}
+main#principal section:nth-child(1) h3{
+    font-size: 1.8em;
+    font-weight: 300;
+    font-style: normal;
+    right: 7.8em;
+    top: 8em;
+}
+main#principal section:nth-child(2){
+    text-align: center;
+}
+main#principal section:nth-child(2) img{
+    border-radius: 5px;
+    height: 13em;
+    width: 18vw;
+}
+main#principal section:nth-child(3){
+    background-color: #A4452C;
+    color: white;
+    display:flex;
+    gap: 1em;
+    justify-content: center;
+    padding-bottom: 2.2em;
+    padding-top: 2.2em;
+}
+main#principal section:nth-child(3) img{
+    height: 15em;
+    width: 13em;
+}
+main#principal section:nth-child(3) article{
+    width: 30%;
+}
+main#principal section:nth-child(3) h1{
+    font-size: 1.7em;
+}
+main#principal section:nth-child(3) :is(h4,h5,p){
+    padding-bottom: .2em;
+    padding-top: .2em;
+}
+main#principal section:nth-child(3) p{
+    letter-spacing: 0.5px;
+}
+
+/*inicio estilos archivo evento01.html*/
+main#SimposioVeganDB{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+main#SimposioVeganDB section{
+    width: 45vw;
+    margin-top: 3em;
+}
+main#SimposioVeganDB section img{
+    background: #B36B0124 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    height: 25em;
+    margin-bottom: 2em;
+    margin-top: 2.5em;
+    width: 100%;
+}
+main#SimposioVeganDB section p{
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+main#SimposioVeganDB section h2:nth-child(n+2){
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+/*fin estilos archivo evento01.html*/
