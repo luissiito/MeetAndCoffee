@@ -56,14 +56,21 @@ main#principal section:nth-child(1) h3{
     right: 7.8em;
     top: 8em;
 }
+
 main#principal section:nth-child(2){
     text-align: center;
 }
 main#principal section:nth-child(2) img{
     border-radius: 5px;
     height: 13em;
+    padding-bottom: .5em;
     width: 18vw;
 }
+main#principal section:nth-child(2) :is(h1,p){
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
 main#principal section:nth-child(3){
     background-color: #A4452C;
     color: white;
@@ -74,8 +81,8 @@ main#principal section:nth-child(3){
     padding-top: 2.2em;
 }
 main#principal section:nth-child(3) img{
-    height: 15em;
-    width: 13em;
+    height: 12em;
+    width: 12em;
 }
 main#principal section:nth-child(3) article{
     width: 30%;
