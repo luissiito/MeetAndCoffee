@@ -29,7 +29,6 @@ nav ul li img{
 }
 main#principal section{
     margin-bottom: 2.5em;
-    margin-top: 2.5em;
 }
 
 main#principal section:nth-child(1) img{
@@ -38,7 +37,7 @@ main#principal section:nth-child(1) img{
 }
 main#principal section:nth-child(1) :is(h1,h3){    
     color: white;
-    letter-spacing: .03m;
+    letter-spacing: .03em;
     position: absolute;
     text-align: right;
     width: 60%;
@@ -47,14 +46,14 @@ main#principal section:nth-child(1) h1{
     font-size: 2.8em;
     font-weight: bolder;
     right: 5em;
-    top: 2.5em;
+    top: 2.9em;
 }
 main#principal section:nth-child(1) h3{
     font-size: 1.8em;
     font-weight: 300;
     font-style: normal;
     right: 7.8em;
-    top: 8em;
+    top: 8.8em;
 }
 
 main#principal section:nth-child(2){
@@ -125,3 +124,50 @@ main#SimposioVeganDB section h2:nth-child(n+2){
     padding-top: .5em;
 }
 /*fin estilos archivo evento01.html*/
+
+/*Media Queries*/
+
+@media (max-width: 700px) {
+    nav ul li{
+        padding-bottom: .7em;
+        padding-top: .9em;
+    }
+    nav ul li a{
+        font-size: 1em;
+    }
+    main#principal section:nth-child(2) img{
+        height: 10em ;
+    }
+}
+@media (max-width: 1280px) {
+    nav ul li{
+        padding-bottom: .6em;
+        padding-top: .8em;
+    }
+    nav ul li a{
+        font-size: 1em;
+    }
+    main#principal section:nth-child(1) :is(h1,h3){ 
+        width: 70%;
+    }
+    main#principal section:nth-child(1) h1{
+        right: 3em;
+    }
+    main#principal section:nth-child(1) h3{
+        right: 5em;
+    }
+    main#principal section:nth-child(1) h1{
+        font-size: 2.6em;
+    }
+    main#principal section:nth-child(1) h3{
+        font-size: 1.6em;
+    }
+    
+    main#principal section:nth-child(2) img{
+        width: 21vw;
+    }
+
+    main#principal section:nth-child(3) article{
+        width: 36%;
+    }
+}
