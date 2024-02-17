@@ -114,7 +114,6 @@ main#principal section:nth-child(4) div.contenedor{
 }
 main#principal section:nth-child(4) div.contenedor div:hover :is(h4,img){
     background-color:#A4452C; 
-    border-radius: 5px;
     outline-color: gray;
     outline-style: solid;
     outline-width: 1.7px;
@@ -122,6 +121,9 @@ main#principal section:nth-child(4) div.contenedor div:hover :is(h4,img){
 }
 main#principal section:nth-child(4) div.contenedor div:nth-child(n+2):hover :is(h4,img){
     opacity: .5;
+}
+main#principal section:nth-child(4) div.contenedor div a :is(img,h4){
+    border-radius: 3px;
 }
 main#principal section:nth-child(4) div.contenedor div a img{
     width: 23vw;
@@ -133,6 +135,30 @@ main#principal section:nth-child(4) div.contenedor div a{
 main#principal section:nth-child(4) div.contenedor div a h4{
     padding-bottom: 1em;
     padding-top: 1em;
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 1.5em;
+    padding-top: 1.9em;
+    text-align: center;
+}
+footer .contenedor{
+    display: flex;
+    gap: .5em;
+    justify-content: center;
+}
+footer .contenedor a{
+    font-size: 2em;
+    text-decoration: none;
+}
+footer .contenedor a i{   
+    color: black;
+    filter: invert(100%);
+}
+footer h5{     
+    color: white;
+    font-weight: 300;
 }
 
 /*inicio estilos archivo evento01.html*/
