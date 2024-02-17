@@ -63,7 +63,7 @@ main#principal section:nth-child(2) img{
     border-radius: 5px;
     height: 13em;
     padding-bottom: .5em;
-    width: 18vw;
+    width: 16vw;
 }
 main#principal section:nth-child(2) :is(h1,p){
     padding-bottom: .5em;
