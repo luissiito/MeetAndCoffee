@@ -170,6 +170,7 @@ main#SimposioVeganDB{
 }
 main#SimposioVeganDB section{
     width: 45vw;
+    margin-bottom: 3em;
     margin-top: 3em;
 }
 main#SimposioVeganDB section img{
