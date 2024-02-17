@@ -93,8 +93,46 @@ main#principal section:nth-child(3) :is(h4,h5,p){
     padding-bottom: .2em;
     padding-top: .2em;
 }
+main#principal section:nth-child(3) h5{
+    font-weight: 300;
+}
 main#principal section:nth-child(3) p{
     letter-spacing: 0.5px;
+}
+
+main#principal section:nth-child(4){
+    text-align: center;
+}
+main#principal section:nth-child(4) div{
+    text-align: center;
+}
+main#principal section:nth-child(4) div.contenedor{
+    display:flex;
+    gap: 5em;
+    justify-content: center;
+    margin-top: 2.2em;
+}
+main#principal section:nth-child(4) div.contenedor div:hover :is(h4,img){
+    background-color:#A4452C; 
+    border-radius: 5px;
+    outline-color: gray;
+    outline-style: solid;
+    outline-width: 1.7px;
+    color: white;
+}
+main#principal section:nth-child(4) div.contenedor div:nth-child(n+2):hover :is(h4,img){
+    opacity: .5;
+}
+main#principal section:nth-child(4) div.contenedor div a img{
+    width: 23vw;
+}
+main#principal section:nth-child(4) div.contenedor div a{
+    color: black;
+    text-decoration: none;
+}
+main#principal section:nth-child(4) div.contenedor div a h4{
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 /*inicio estilos archivo evento01.html*/
@@ -138,6 +176,12 @@ main#SimposioVeganDB section h2:nth-child(n+2){
     main#principal section:nth-child(2) img{
         height: 10em ;
     }
+
+    /*inicio estilos archivo evento01.html*/
+    main#SimposioVeganDB section img{
+        height: 20em;
+    }
+    /*fin estilos archivo evento01.html*/
 }
 @media (max-width: 1280px) {
     nav ul li{
@@ -170,4 +214,10 @@ main#SimposioVeganDB section h2:nth-child(n+2){
     main#principal section:nth-child(3) article{
         width: 36%;
     }
+
+    /*inicio estilos archivo evento01.html*/
+    main#SimposioVeganDB section img{
+        height: 22em;
+    }
+    /*fin estilos archivo evento01.html*/
 }
