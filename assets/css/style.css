@@ -33,6 +33,9 @@ nav ul li img{
 main#principal section{
     margin-bottom: 2.5em;
 }
+main#principal section img{
+    object-fit: fill;
+}
 main#principal section:nth-child(1) img{
     height: 17em;
     width: 100%;
